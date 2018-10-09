@@ -47,7 +47,6 @@ void die(){
   tFour = tFour + four;
   tFive = tFive + five;
   tSix = tSix + six;
-  println("Sum: " + sum);
   textSize(20);
   fill(255);
   text("Current Dots: " + sum, 20, 480);
@@ -64,15 +63,16 @@ void die(){
   text("Total 4's:" + tFour, 220, 580);
   text("Total 5's:" + tFive, 220, 605);
   text("Total 6's:" + tSix, 220, 630);
+  /*println("Sum: " + sum);
   println("Values: " + one + " " + two + " " + three + " " + four + " " + five + " " + six);
-  println("Total Values: " + tOne + " " + tTwo + " " + tThree + " " + tFour + " " + tFive + " " + tSix);
+  println("Total Values: " + tOne + " " + tTwo + " " + tThree + " " + tFour + " " + tFive + " " + tSix);*/
   int[] tMaxValues = {tOne, tTwo, tThree, tFour, tFive, tSix};
   tMaximum = max(tMaxValues);
   int[] maxValues = {one, two, three, four, five, six};
   maximum = max(maxValues);
   int minimum = min(tMaxValues);
-  println("minimum: " + minimum);
-  println("maximum: " + maximum);
+  /*println("minimum: " + minimum);
+  println("maximum: " + maximum);*/
   //current chart
   for(int i = 0; i < 6; i ++){
     if(i == 0){
